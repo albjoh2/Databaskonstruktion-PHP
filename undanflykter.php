@@ -69,8 +69,8 @@
             if(isset($_POST['halt'])){
                 $query = 'update undanflykter set halt = :halt where titel = :titel;';
                 $stmt = $pdo->prepare($query);
-                $stmt->bindParam(':halt', $_POST['halt']); // Use $_POST for form data
-                $stmt->bindParam(':titel', $_POST['titel']); // Use $_POST for form data
+                $stmt->bindParam(':halt', $_POST['halt']);
+                $stmt->bindParam(':titel', $_POST['titel']);
 
                 $stmt->execute();
 

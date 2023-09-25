@@ -34,7 +34,7 @@
     <h1>Sök på startdatum</h1>
     <form action="./listaKampanjer.php" method="post">
         <input type="date" name="datum" value="2020-01-01">
-        <input type="submit"/>
+        <input type="submit" value="sök" />
     </form>
 
         <table>

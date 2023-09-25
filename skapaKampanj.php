@@ -71,8 +71,6 @@
             <input type="submit" value="Skapa kampanj">
         </form>
 
-        <table>
-
             <?php
         $pdo = new PDO(
             'mysql:dbname=a22albjo;host=localhost', 
@@ -108,7 +106,6 @@
         }
         
         ?>
-        </table>
     </main>
 </body>
 </html>
